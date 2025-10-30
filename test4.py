@@ -4,8 +4,7 @@ from numpy.polynomial import Chebyshev
 import scipy.constants as sc
 from EMpy.modesolvers import FD
 
-try:
-    import nk
+import nk
 
 c_um_ps  = 299.792458
 c_nm_ps  = sc.c * 1e-9 * 1e12
