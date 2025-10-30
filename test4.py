@@ -6,11 +6,6 @@ from EMpy.modesolvers import FD
 
 try:
     import nk
-except Exception as e:
-    raise ImportError(
-        "Cannot import nk. Put the professor's nk.py in the same folder or on PYTHONPATH.\n"
-        f"Import error: {e}"
-    )
 
 c_um_ps  = 299.792458
 c_nm_ps  = sc.c * 1e-9 * 1e12
